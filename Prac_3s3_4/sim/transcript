@@ -1,0 +1,672 @@
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v failed with 1 errors.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v failed with 1 errors.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v failed with 1 errors.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v failed with 1 errors.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:13:01 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+# ** Error: (vsim-3043) Unresolved reference to 'wwaitEnd'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v Line: 121
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SDO'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/SLAVE File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (8) for port 'CS'. The port definition is at: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spislave_fm.v(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/SLAVE File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v Line: 44
+# Error loading design
+# End time: 15:13:01 on Apr 21,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 10
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:14:32 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SDO'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/SLAVE File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v Line: 44
+# Error loading design
+# End time: 15:14:32 on Apr 21,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v failed with 1 errors.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:19:41 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+# ** Error: (vsim-3043) Unresolved reference to 'spi_top'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v Line: 46
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SDO'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/SLAVE File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v Line: 44
+# ** Fatal: (vsim-3986) Unhandled port connection.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/SLAVE File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spislave_fm.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 15:19:41 on Apr 21,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 4
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:20:26 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+add wave sim:/tb_spi_top/*
+add wave -position insertpoint  \
+sim:/tb_spi_top/DUT/CU/CPol \
+sim:/tb_spi_top/DUT/CU/CPha \
+sim:/tb_spi_top/DUT/CU/Pulse \
+sim:/tb_spi_top/DUT/CU/StartTx \
+sim:/tb_spi_top/DUT/CU/EndTx \
+sim:/tb_spi_top/DUT/CU/ShiftRx \
+sim:/tb_spi_top/DUT/CU/ShiftTx \
+sim:/tb_spi_top/DUT/CU/LoadTx \
+sim:/tb_spi_top/DUT/CU/PulseEn \
+sim:/tb_spi_top/DUT/CU/SCK \
+sim:/tb_spi_top/DUT/CU/count \
+sim:/tb_spi_top/DUT/CU/txmode \
+sim:/tb_spi_top/DUT/CU/rxmode \
+sim:/tb_spi_top/DUT/CU/sckconfig \
+sim:/tb_spi_top/DUT/CU/state \
+sim:/tb_spi_top/DUT/CU/next
+add wave -position insertpoint  \
+sim:/tb_spi_top/DUT/REGS/busy
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(79)
+#    Time: 27452 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 79
+add wave -position insertpoint sim:/tb_spi_top/SLAVE/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(79)
+#    Time: 27452 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 79
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 27452 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+add wave -position insertpoint  \
+sim:/tb_spi_top/DUT/MISO
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 27452 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+add wave -position insertpoint  \
+sim:/tb_spi_top/DUT/REGS/buffer
+restart
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 27452 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+restart
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+restart
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 29052 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'DataRd'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/DUT/REGS File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spi_top.v Line: 14
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SlaveSelectors'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/DUT/REGS File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spi_top.v Line: 14
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SerOut'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/DUT/TX File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spi_top.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SCK'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/DUT/CU File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spi_top.v Line: 55
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:20:26 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SerOut'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/DUT/TX File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spi_top.v Line: 39
+# Error loading design
+# End time: 15:47:09 on Apr 21,2022, Elapsed time: 0:26:43
+# Errors: 5, Warnings: 2
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:47:33 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'SerOut'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spi_top/DUT/TX File: C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/rtl/spi_top.v Line: 39
+# Error loading design
+# End time: 15:47:33 on Apr 21,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_spi_top
+# vsim -gui work.tb_spi_top 
+# Start time: 15:48:02 on Apr 21,2022
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of pulse_generator.v was successful.
+# Compile of shiftregrx.v was successful.
+# Compile of shiftregtx.v was successful.
+# Compile of spi_cu.v was successful.
+# Compile of spi_regs.v was successful.
+# Compile of spi_top.v was successful.
+# Compile of spi_defines.vh was successful.
+# Compile of tb_spi_top.v was successful.
+# Compile of spislave_fm.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_spi_top
+# Loading work.spi_top
+# Loading work.spi_regs
+# Loading work.pulse_generator
+# Loading work.shiftregtx
+# Loading work.shiftregrx
+# Loading work.spi_cu
+# Loading work.spislave_fm
+run -all
+# [Info-   12.00 ns] Reset
+# [Info-   92.00 ns] Test SPI
+# ** Note: $stop    : C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v(80)
+#    Time: 28332 ns  Iteration: 0  Instance: /tb_spi_top
+# Break in Module tb_spi_top at C:/Users/Usuari/Desktop/UNI/DSSD/2022/Prac_3s3_4/tb/tb_spi_top.v line 80
+# End time: 17:36:25 on Apr 21,2022, Elapsed time: 1:48:23
+# Errors: 0, Warnings: 1
