@@ -163,13 +163,13 @@ module tb_spi_top(); // module name (same as the file)
 		begin
 			sckdata = 8'h00 + cpre;
 			slavedata = 8'hFE;
-			$display("[Info- %t] Test SPI Mode 3 per a CPre = %d", $time, sckdata[3:0]);
+			$display("[Info- %t] Test SPI Mode 0 per a CPre = %d", $time, sckdata[3:0]);
 			testspi(sckdata, slavedata, txdata);
 			sckdata = sckdata + 8'h10;
-			$display("[Info- %t] Test SPI Mode 3 per a CPre = %d", $time, sckdata[3:0]);
+			$display("[Info- %t] Test SPI Mode 1 per a CPre = %d", $time, sckdata[3:0]);
 			testspi(sckdata, slavedata, txdata);
 			sckdata = sckdata + 8'h10;	
-			$display("[Info- %t] Test SPI Mode 3 per a CPre = %d", $time, sckdata[3:0]);
+			$display("[Info- %t] Test SPI Mode 2 per a CPre = %d", $time, sckdata[3:0]);
 			testspi(sckdata, slavedata, txdata);
 			sckdata = sckdata + 8'h10;
 			$display("[Info- %t] Test SPI Mode 3 per a CPre = %d", $time, sckdata[3:0]);

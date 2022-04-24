@@ -27,21 +27,26 @@ module spi_cu ( //Definim les entrades i sortides del modul
   
   //El primer always es per fer el canvi d'estat, el reset i per mirar si estem en el cas de CPre = 0
   always @(posedge Clk or negedge Rst_n) begin
-	if (!Rst_n) state <= IDLE;
-	else 		state <= next;		
 	//Per mirar si estem en CPre = 0 hem de mirar quan hi han 2 cicles de rellotge consecutius on pulse no baixa a 0, 
 	//si aquest es el cas estem en CPre = 0 ja que si no estem a CPre = 0 el Pulse nomes dura 1 cicle de rellotge.
-	if (Clk & Pulse & !cpre) 	countclk = countclk + 1;
-	if (countclk == 2) begin
-		cpre = 1;
-		clkpulse = !clkpulse;
+	if (Clk) begin
+		if (Pulse & !cpre) countclk = countclk + 1;
+		if (countclk == 2) begin
+			cpre = 1;
+			clkpulse = !clkpulse;
+		end
+		//Si en algun moment el valor de Pulse baixa vol dir que no estem a CPre = 0 i es torna al procediment normal
+		if (!Pulse) begin
+			cpre = 0;
+			countclk = 0;
+			clkpulse = 0;
+		end
+		if (next == START & (!(txmode || rxmode))) begin
+			clkpulse = 1;
+		end
 	end
-	//Si en algun moment el valor de Pulse baixa vol dir que no estem a CPre = 0 i es torna al procediment normal
-	if (!Pulse) begin
-		cpre = 0;
-		countclk = 0;
-		clkpulse = 0;
-	end
+	if (!Rst_n) state <= IDLE;
+	else 		state <= next;
   end
   
   //El segon always s'encarrega de definir quin serà l'estat següent en funció de les entrades i les senyals internes
@@ -80,7 +85,7 @@ module spi_cu ( //Definim les entrades i sortides del modul
 	IDLE: begin
 		PulseEn = 0; LoadTx = 0; EndTx = 0; ShiftRx = 0; ShiftTx = 0;
 		txmode = 0;	rxmode = 0;	count = 0; sckconfig = 0; change = 0;
-		SCK = 1'b0; shift = 0; sckvalue = 0; countclk = 0; cpre = 0; clkpulse = 0;
+		SCK = 1'b0; shift = 0; sckvalue = 0;
 	end
 	
 	//L'estat START configura el valor inicial del SCK en funció de CPha i CPol 
@@ -89,7 +94,6 @@ module spi_cu ( //Definim les entrades i sortides del modul
 		//s'habilita el generador de polsos (o el pols en cas de CPre = 0), la carrega al hift register de tx i el mode de transmissió
 		if (!(txmode || rxmode)) begin
 			PulseEn = 1;
-			clkpulse = 1;
 			LoadTx = 1;
 			txmode = 1;
 		end
