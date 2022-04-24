@@ -1,4 +1,4 @@
-module spi_top (
+module spi_top (	//Definim les entrades i sortides del mòdul
   input [7:0] DataWr,
   input [1:0] Addr,
   input Clk, Rst_n, Wr, 
@@ -6,15 +6,20 @@ module spi_top (
   output SCK, MOSI, 
   output [7:0] SS, DataRd
 );
+  
+  //Creem 2 seyals per fer la AND que necessita el pulse generator per fer el reset
   wire pulseRst;
   wire pulseEnable;
-  
+
+  //Creem cables per unir tots els mòduls entre ells
   wire CPol, CPha, StartTx, EndTx, Pulse, ShiftRx, ShiftTx, LoadTx;
   wire [3:0] CPre;
   wire [7:0] DataIn, DataOut;
   
+  //Fem la AND i posem el seu valor a pulseRst
   assign pulseRst = (pulseEnable & Rst_n);
     
+  //S'instancien tots els mòduls utilitzats
   spi_regs REGS(
 	.Clk 			(Clk),
 	.Rst_n			(Rst_n),
